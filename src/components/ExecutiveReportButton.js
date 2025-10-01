@@ -2176,7 +2176,7 @@ const ExecutiveReportDocument = ({
                     <Text style={[styles.headerCell, { flex: 1 }]}>Last Sync</Text>
                   </View>
 
-                  {deviceData.slice(0, 8).map((device, index) => {
+                  {deviceData.map((device, index) => {
                     const lastSync = device.lastSyncDateTime
                       ? new Date(device.lastSyncDateTime).toLocaleDateString()
                       : "N/A";
@@ -2342,7 +2342,7 @@ const ExecutiveReportDocument = ({
                     <Text style={[styles.headerCell, { flex: 1 }]}>Controls</Text>
                   </View>
 
-                  {conditionalAccessData.slice(0, 8).map((policy, index) => {
+                  {conditionalAccessData.map((policy, index) => {
                     const getStateStyle = (state) => {
                       switch (state) {
                         case "enabled":
