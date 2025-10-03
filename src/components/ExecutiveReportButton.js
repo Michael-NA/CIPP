@@ -929,7 +929,7 @@ const ExecutiveReportDocument = ({
         <Page size="A4" style={styles.page}>
           <View style={styles.pageHeader}>
             <View style={styles.pageHeaderContent}>
-              <Text style={styles.pageTitle}>Executive Summary</Text>
+              <Text style={styles.pageTitle}>Security Audit</Text>
               <Text style={styles.pageSubtitle}>
                 Strategic overview of your Microsoft 365 security posture
               </Text>
