@@ -906,7 +906,7 @@ const ExecutiveReportDocument = ({
           <Text style={styles.coverLabel}>SECURITY ASSESSMENT</Text>
 
           <Text style={styles.mainTitle}>
-            Executive{"\n"}
+            Security{"\n"}
             <Text style={styles.titleAccent}>Summary</Text>
           </Text>
 
